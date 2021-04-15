@@ -56,7 +56,6 @@ let randomindexQuote = (min, max) => {
 let getQuotes = () => {
     deg += 360;
     iconRefresh.style.transform = 'rotate(' + deg + 'deg)';
-    iconRefresh.style.transition = '1s ease-in-out';
 
     quote = quotes[randomindexQuote(0, quotes.length - 1)];
     quoteText.innerText = quote.quoteText;
