@@ -1,0 +1,70 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#counterNumber {
+    max-width: 100px;
+    border-radius: 0;
+    text-align: center;
+}
+
+.counter__btn {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    line-height: 38px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#bombTimeCountDown {
+    max-width: 100px;
+}
+
+#bomb__time {
+    font-family: 'Digital-7', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    margin: 0 auto 30px;
+    max-width: 340px;
+    background-color: black;
+}
+
+.quote {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.quote__item {
+    text-align: right;
+}
+
+#quoteText {
+    margin-bottom: 4px;
+}
+
+#quoteAuthor {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.quote__btn i {
+    transform: rotate(0deg);
+}
