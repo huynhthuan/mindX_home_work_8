@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrap {
+    background: #fc466b; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #3f5efb,
+        #fc466b
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #3f5efb,
+        #fc466b
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.clock {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    background: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.clock__item {
+    width: 25%;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.clock__val {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.clock__label {
+    font-size: 12px;
+    color: #eaeaea;
+}
+
+.clock__space {
+    font-size: 28px;
+    font-weight: bold;
+    color: #eaeaea;
+}
